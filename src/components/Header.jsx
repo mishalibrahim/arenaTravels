@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { traceGlobals } from "next/dist/trace/shared";
 
 const Header = () => {
   const [openNav, setOpenNav] = useState(false);
