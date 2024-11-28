@@ -6,10 +6,30 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    backgroundImage: {
+      btngradient: "linear-gradient(to right, #011160 0%, #969DBD 100%)",
+    },
+    boxShadow: {
+      innerShadow: "inset 0px 2px 4px #F59C1A",
+      btnshadow: "0px 4px 4px rgba(1, 17, 96, 0.29)", // X, Y, Blur, Color
+    },
+    container: {
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "2.4rem",
+        xl: "5rem",
+        "2xl": "6rem",
+      },
+    },
     extend: {
+      fontFamily: {
+        safiro: ["var(--font-safiro-sans)", "sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#011160",
       },
     },
   },
