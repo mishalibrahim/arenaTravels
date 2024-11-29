@@ -1,10 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 
 const Header = () => {
   const [openNav, setOpenNav] = useState(false);
+  useEffect(() => {
+    if (openNav) {
+      document.body.classList.add("scroll-lock");
+    } else {
+      document.body.classList.remove("scroll-lock");
+    }
+
+    return () => document.body.classList.remove("scroll-lock");
+  }, [openNav]);
   return (
     <>
       <header className="flex justify-between mt-[20px] gap-[20px] items-center">
@@ -81,7 +90,7 @@ const Header = () => {
             initial={{ opacity: 0, transform: "translateY(-100vh)" }}
             animate={openNav && { opacity: 1, transform: "translateY(0vh)" }}
             exit={{ opacity: 0, transform: "translateY(-100vh)" }}
-            className="fixed z-[10] top-0 left-0 w-full h-full bg-white"
+            className="fixed z-[10] top-0 left-0 w-full h-[100dvh] bg-white overflow-y-hidden"
           >
             <nav className="flex flex-col h-full items-center justify-center gap-[10px]">
               <Link href="" className="text-primary text-nowrap text-16 p-4">

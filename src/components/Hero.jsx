@@ -90,8 +90,8 @@ const Hero = () => {
           </p>
           <button aschild="true">
             <Link
-              className="bg-btngradient max-w-[169px] mt-[24px] shadow-btnshadow text-white px-[35px] py-[11px] rounded-[100px] text-16 flex items-center gap-[6px]"
-              href=""
+              className="bg-btngradient  max-w-[169px] mt-[24px] shadow-btnshadow text-white px-[35px] py-[11px] rounded-[100px] text-16 flex items-center gap-[6px]"
+              href="/"
             >
               <FontAwesomeIcon
                 icon={faWhatsapp}

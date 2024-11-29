@@ -19,6 +19,9 @@ body {
   background: var(--background);
   font-family: safiro, sans-serif;
 }
+.scroll-lock {
+  overflow: hidden;
+}
 
 @layer base {
   .text-16 {
@@ -26,5 +29,11 @@ body {
   }
   .text-12 {
     @apply text-[12px] leading-[1.2];
+  }
+  .text-40 {
+    @apply text-[40px] leading-[1.2];
+  }
+  .text-20 {
+    @apply text-[19.2px] leading-[23px];
   }
 }
