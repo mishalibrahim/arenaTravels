@@ -13,10 +13,11 @@ const About = () => {
           serving both regional and international clients, was established in
           Abu Dhabi, United Arab Emirates, in 2022.
         </p>
+
         <p className="text-center mt-[10px]">
           Arena Tours & Travels is now one of the largest and most trusted
           travel management services in the UAE and the Middle East, positioned
-          right at the heart of the UAE's travel boom.
+          right at the heart of the UAE&apos;s travel boom.
         </p>
         <p className=" text-center mt-[10px]">
           Travel management and planning, creative corporate travel solutions,
