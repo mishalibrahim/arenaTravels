@@ -11,18 +11,18 @@ const About = () => {
     >
       <h3 className="text-40 text-primary text-center">Who We are </h3>
       <div className="max-w-[950px] mx-auto">
-        <p className=" text-center mt-[50px]">
+        <p className=" text-center mt-[50px] text-dark">
           ARENA TOURS AND TRAVELS, a complete travel and tourist services firm
           serving both regional and international clients, was established in
           Abu Dhabi, United Arab Emirates, in 2022.
         </p>
 
-        <p className="text-center mt-[10px]">
+        <p className="text-center mt-[10px] text-dark">
           Arena Tours & Travels is now one of the largest and most trusted
           travel management services in the UAE and the Middle East, positioned
           right at the heart of the UAE&apos;s travel boom.
         </p>
-        <p className=" text-center mt-[10px]">
+        <p className=" text-center mt-[10px] text-dark">
           Travel management and planning, creative corporate travel solutions,
           visa processing, concierge assistance, event logistics, retail and
           wholesale services, and first luxury and VIP services for a variety of

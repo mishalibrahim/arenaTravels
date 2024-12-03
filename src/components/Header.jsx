@@ -55,7 +55,7 @@ const Header = () => {
         </nav>
         <motion.div
           onClick={() => setOpenNav((prev) => !prev)}
-          className="lg:hidden flex flex-col justify-around w-[55px] items-end h-[45px] relative z-[20]"
+          className="lg:hidden flex flex-col justify-around w-[55px] items-end h-[45px] relative z-[30]"
         >
           <motion.span
             animate={
