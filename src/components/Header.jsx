@@ -19,7 +19,7 @@ const Header = () => {
       <header className="flex justify-between mt-[20px] gap-[20px] items-center">
         <Link href="/">
           <Image
-            className="lg:block hidden"
+            className="lg:block hidden min-h-[65px] min-w-[358px] aspect-[358/65]"
             src="/images/main_logo.svg"
             width={358}
             height={65}

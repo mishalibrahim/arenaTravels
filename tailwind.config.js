@@ -8,6 +8,8 @@ module.exports = {
   theme: {
     backgroundImage: {
       btngradient: "linear-gradient(to right, #011160 0%, #969DBD 100%)",
+      bentograd:
+        "linear-gradient(120deg, rgba(255, 255, 255, 1) 25%, rgba(245, 156, 26, 0.2) 100%);",
     },
     boxShadow: {
       innerShadow: "inset 0px 2px 4px #F59C1A",
@@ -30,6 +32,8 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: "#011160",
+        secondary: "#F59C1A",
+        dark: "#2A2A2A",
       },
     },
   },

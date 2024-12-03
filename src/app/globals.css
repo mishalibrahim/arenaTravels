@@ -13,7 +13,10 @@
     --foreground: #ededed;
   }
 }
-
+.html,
+.body {
+  overflow: hidden;
+}
 body {
   color: var(--foreground);
   background: var(--background);
@@ -23,7 +26,10 @@ body {
   overflow: hidden;
 }
 
-@layer base {
+@layer components {
+  .text-15 {
+    @apply text-[1px] leading-[1.2];
+  }
   .text-16 {
     @apply text-[16px] leading-5;
   }
@@ -35,5 +41,11 @@ body {
   }
   .text-20 {
     @apply text-[19.2px] leading-[23px];
+  }
+  .text-24 {
+    @apply text-[24px] leading-[1.2];
+  }
+  .mySwiper {
+    @apply max-w-[800px] max-h-[400px] w-full drop-shadow-xl bg-white rounded-[20px];
   }
 }
