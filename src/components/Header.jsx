@@ -90,7 +90,7 @@ const Header = () => {
             initial={{ opacity: 0, transform: "translateY(-100vh)" }}
             animate={openNav && { opacity: 1, transform: "translateY(0vh)" }}
             exit={{ opacity: 0, transform: "translateY(-100vh)" }}
-            className="fixed z-[10] top-0 left-0 w-full h-[100dvh] bg-white overflow-y-hidden"
+            className="fixed z-20 top-0 left-0 w-full h-[100dvh] bg-white overflow-y-hidden"
           >
             <nav className="flex flex-col h-full items-center justify-center gap-[10px]">
               <Link href="" className="text-primary text-nowrap text-16 p-4">
