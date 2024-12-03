@@ -5,7 +5,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className=" container mx-auto my-[100px]" id="whoweare">
+    <section
+      className=" container mx-auto lg:my-[100px] my-[50px]"
+      id="whoweare"
+    >
       <h3 className="text-40 text-primary text-center">Who We are </h3>
       <div className="max-w-[950px] mx-auto">
         <p className=" text-center mt-[50px]">

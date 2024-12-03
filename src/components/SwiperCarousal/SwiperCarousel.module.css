@@ -14,16 +14,8 @@
   color: #fff;
 }
 
-@media screen and (max-width: 700px) {
-  .swiper {
-    max-width: 340px;
-    width: 80%;
-    height: 320px;
-  }
-}
-
 .swiper_slide:nth-child(1n) {
-  background-color: rgb(206, 17, 17);
+  background-color: #011160;
 }
 
 .swiper_slide:nth-child(2n) {
@@ -40,4 +32,11 @@
 
 .swiper_slide:nth-child(5n) {
   background-color: rgb(118, 163, 12);
+}
+@media screen and (max-width: 700px) {
+  .swiper {
+    max-width: 340px;
+    width: 80%;
+    height: 420px;
+  }
 }

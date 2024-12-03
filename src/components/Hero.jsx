@@ -80,8 +80,8 @@ const Hero = () => {
       </div>
       {/* headet top end */}
       <Header />
-      <section className="flex flex-col w-full relative">
-        <div className="flex md:items-center flex-col w-full lg:pt-[4.5rem] pt-[3.5rem]">
+      <section className="flex flex-col w-full relative ">
+        <div className="flex md:items-center flex-col w-full lg:pt-[4.5rem] pt-[3.5rem] relative z-10">
           <h1 className="lg:text-[6rem] md:text-[4rem] text-[3rem]  font-medium leading-[120%] md:text-center text-primary">
             {/* <AnimatedText text="Plan. Book. Explore." /> */}
             Plan. Book. Explore.
@@ -93,8 +93,8 @@ const Hero = () => {
           </p>
           <button aschild="true">
             <Link
-              className="bg-btngradient  max-w-[169px] mt-[24px] shadow-btnshadow text-white px-[35px] py-[11px] rounded-[100px] text-16 flex items-center gap-[6px]"
-              href="/"
+              className="bg-btngradient  cursor-pointer  max-w-[169px] mt-[24px] shadow-btnshadow text-white px-[35px] py-[11px] rounded-[100px] text-16 flex items-center gap-[6px]"
+              href="https://api.whatsapp.com/send?phone=15551234567"
             >
               <FontAwesomeIcon
                 icon={faWhatsapp}

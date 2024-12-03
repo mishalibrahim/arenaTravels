@@ -28,7 +28,7 @@ body {
 
 @layer components {
   .text-15 {
-    @apply text-[1px] leading-[1.2];
+    @apply text-[15px] leading-[1.2];
   }
   .text-16 {
     @apply text-[16px] leading-5;
