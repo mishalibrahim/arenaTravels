@@ -1,6 +1,7 @@
 .swiper {
   max-width: 340px;
   height: 420px;
+  margin-bottom: 100px;
 }
 
 .swiper_slide {
@@ -11,6 +12,14 @@
   font-size: 22px;
   font-weight: bold;
   color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .swiper {
+    max-width: 340px;
+    width: 80%;
+    height: 320px;
+  }
 }
 
 .swiper_slide:nth-child(1n) {
@@ -31,10 +40,4 @@
 
 .swiper_slide:nth-child(5n) {
   background-color: rgb(118, 163, 12);
-}
-.swiper_button_prev {
-  left: -100px;
-}
-.swiper_button_next {
-  right: -100px;
 }

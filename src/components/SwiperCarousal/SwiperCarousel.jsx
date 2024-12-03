@@ -20,20 +20,19 @@ const SwiperCarousel = () => {
         prevEl: prevRef.current,
         nextEl: nextRef.current,
       }}
-      in
       effect={"cards"}
       grabCursor={true}
       modules={[EffectCards, Pagination, Navigation]}
-      className={` md:${styles.swiper} w-[70%] h-[350px] `}
+      className={` ${styles.swiper} `}
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+      // scrollbar={{ draggable: true }}
       onInit={() => setInit(true)}
     >
       <SwiperSlide className={styles.swiper_slide}>Slide 1</SwiperSlide>
       <SwiperSlide className={styles.swiper_slide}>Slide 2</SwiperSlide>
       <SwiperSlide className={styles.swiper_slide}>Slide 3</SwiperSlide>
       <SwiperSlide className={styles.swiper_slide}>Slide 4</SwiperSlide>
-      <div className="flex gap-5 mt-3 justify-end">
+      <div className=" absolute -bottom-[50px] right-0 z-50 flex gap-5 mt-3 justify-end">
         <button
           className="w-[40px] h-[40px] rounded-full border border-primary"
           ref={prevRef}

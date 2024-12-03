@@ -3,7 +3,7 @@ import SwiperCarousel from "./SwiperCarousal/SwiperCarousel";
 
 const Testimonial = () => {
   return (
-    <section className="container mx-auto mb-20 my-20  overflow-x-hidden">
+    <section className="container mx-auto mb-20  overflow-hidden">
       <h3 className="text-40 text-primary text-center">Testimonials </h3>
       <div className="flex items-center justify-center w-full    ">
         {" "}
