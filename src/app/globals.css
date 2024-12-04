@@ -5,6 +5,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --dot: radial-gradient(closest-side, #777, #fff calc(100% / sqrt(2)));
+  --pattern: repeating-conic-gradient(var(--a), #fff, #777, #fff var(--p)) 0/
+    3em 3em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,10 +23,19 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: safiro, sans-serif;
+  /* font-family: safiro, sans-serif; */
 }
 .scroll-lock {
   overflow: hidden;
+}
+.pattern {
+  background: var(
+      --pattern,
+      radial-gradient(closest-side, #777, #fff) 0/ 0.5em 1em space
+    ),
+    var(--map, linear-gradient(90deg, #888, #fff));
+  background-blend-mode: multiply;
+  filter: contrast(16);
 }
 
 @layer components {
@@ -47,5 +59,8 @@ body {
   }
   .mySwiper {
     @apply max-w-[800px] max-h-[400px] w-full drop-shadow-xl bg-white rounded-[20px];
+  }
+  .active_link {
+    @apply before:content-[''] before:transition-all before:duration-200 before:ease-in-out before:absolute before:-bottom-2 top-0 before:left-0 before:w-full before:h-[2px] before:bg-primary;
   }
 }

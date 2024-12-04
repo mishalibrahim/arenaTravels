@@ -1,10 +1,14 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [openNav, setOpenNav] = useState(false);
+
+  const pathName = usePathname();
   useEffect(() => {
     if (openNav) {
       document.body.classList.add("scroll-lock");
@@ -19,14 +23,14 @@ const Header = () => {
       <header className="flex justify-between mt-[20px] gap-[20px] items-center">
         <Link href="/">
           <Image
-            className="lg:block hidden min-h-[65px] min-w-[358px] aspect-[358/65]"
+            className="xl:block hidden min-h-[65px] min-w-[358px] aspect-[358/65]"
             src="/images/main_logo.svg"
             width={358}
             height={65}
             alt="company logo"
           />
           <Image
-            className="lg:hidden block"
+            className="xl:hidden block"
             src="/images/mobile_mainlogo.svg"
             width={200}
             height={45}
@@ -34,22 +38,40 @@ const Header = () => {
           />
         </Link>
         <nav className="lg:flex gap-[26.9px] hidden">
-          {/* <Link href="" className="text-primary text-nowrap text-16">
-          <p>Home</p>
-        </Link> */}
-          <Link href="" className="text-primary text-nowrap text-16">
-            <p>Who We Are</p>
+          <Link
+            href="/"
+            className={`text-primary relative text-nowrap text-16 ${pathName === "/" ? "text-primary active_link" : "text-primary_light"}`}
+          >
+            <p>Home</p>
           </Link>
-          <Link href="" className="text-primary text-nowrap text-16">
+          <Link
+            href="/about-us"
+            className={`  text-nowrap text-16 relative ${pathName === "/about-us" ? "text-primary active_link" : "text-primary_light"}`}
+          >
+            <p>Who We Are </p>
+          </Link>
+          <Link
+            href=""
+            className={`text-primary text-nowrap text-16 ${pathName === "/corporate-travel" ? "text-primary" : "text-primary_light"}`}
+          >
             <p>Corporate Travel</p>
           </Link>
-          <Link href="" className="text-primary text-nowrap text-16">
+          <Link
+            href=""
+            className={`text-primary text-nowrap text-16 ${pathName === "" && "text-[gray]"}`}
+          >
             <p>Our Services</p>
           </Link>
-          <Link href="" className="text-primary text-nowrap text-16">
+          <Link
+            href=""
+            className={`text-primary text-nowrap text-16 ${pathName === "" && "text-[gray]"}`}
+          >
             <p>Careers</p>
           </Link>
-          <Link href="" className="text-primary text-nowrap text-16">
+          <Link
+            href=""
+            className={`text-primary text-nowrap text-16 ${pathName === "" && "text-[gray]"}`}
+          >
             <p>Contact Us</p>
           </Link>
         </nav>
@@ -93,6 +115,9 @@ const Header = () => {
             className="fixed z-20 top-0 left-0 w-full h-[100dvh] bg-white overflow-y-hidden"
           >
             <nav className="flex flex-col h-full items-center justify-center gap-[10px]">
+              <Link href="" className="text-primary text-nowrap text-16 p-4">
+                <p>Home</p>
+              </Link>
               <Link href="" className="text-primary text-nowrap text-16 p-4">
                 <p>Who We Are</p>
               </Link>

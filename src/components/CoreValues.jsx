@@ -12,7 +12,9 @@ import React from "react";
 const CoreValues = () => {
   return (
     <section className="container mx-auto mb-20">
-      <h3 className="text-40 text-secondary text-center">Our Core Values </h3>
+      <h3 className="text-40 text-secondary text-center font-medium">
+        Our Core Values{" "}
+      </h3>
       <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 gap-6 mt-10 ">
         <div className="lg:col-span-2 bg-bentograd  rounded-[20px] border border-[#F3D1A0] px-5 py-4">
           <FontAwesomeIcon

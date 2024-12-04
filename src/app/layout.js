@@ -1,6 +1,14 @@
 import localFont from "next/font/local";
 import "./globals.css";
 
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["poppins"],
+  display: "swap",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
+
 const safiro = localFont({
   src: "./fonts/safiro-medium.otf",
   variable: "--font-safiro-sans",
@@ -14,7 +22,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={poppins.className}>
       <body className={`${safiro.variable}  antialiased`}>{children}</body>
     </html>
   );

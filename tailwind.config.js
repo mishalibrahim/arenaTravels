@@ -34,6 +34,7 @@ module.exports = {
         primary: "#011160",
         secondary: "#F59C1A",
         dark: "#2A2A2A",
+        primary_light: "rgba(1, 17, 96, 0.47)",
       },
     },
   },
