@@ -51,26 +51,26 @@ const Header = () => {
             <p>Who We Are </p>
           </Link>
           <Link
-            href=""
-            className={`text-primary text-nowrap text-16 ${pathName === "/corporate-travel" ? "text-primary" : "text-primary_light"}`}
+            href="/corporate-travel"
+            className={`text-primary text-nowrap relative text-16 ${pathName === "/corporate-travel" ? "text-primary active_link" : "text-primary_light"}`}
           >
             <p>Corporate Travel</p>
           </Link>
           <Link
             href=""
-            className={`text-primary text-nowrap text-16 ${pathName === "" && "text-[gray]"}`}
+            className={`text-primary text-nowrap text-16 ${pathName === "/our-servcies" ? "text-primary" : "text-primary_light"}`}
           >
             <p>Our Services</p>
           </Link>
           <Link
             href=""
-            className={`text-primary text-nowrap text-16 ${pathName === "" && "text-[gray]"}`}
+            className={`text-primary text-nowrap text-16 ${pathName === "/careers" ? "text-primary" : "text-primary_light"}`}
           >
             <p>Careers</p>
           </Link>
           <Link
             href=""
-            className={`text-primary text-nowrap text-16 ${pathName === "" && "text-[gray]"}`}
+            className={`text-primary text-nowrap text-16 ${pathName === "/contact-us" ? "text-primary" : "text-primary_light"}`}
           >
             <p>Contact Us</p>
           </Link>

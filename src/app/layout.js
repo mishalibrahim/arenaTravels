@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 import { Poppins } from "next/font/google";
+import Lenis from "@/components/Lenis";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -23,7 +24,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={poppins.className}>
-      <body className={`${safiro.variable}  antialiased`}>{children}</body>
+      <body className={`${safiro.variable}  antialiased`}>
+        <Lenis>{children}</Lenis>
+      </body>
     </html>
   );
 }

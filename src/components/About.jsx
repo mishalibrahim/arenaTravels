@@ -10,7 +10,7 @@ const About = () => {
       id="whoweare"
     >
       <h3 className="text-40 text-primary text-center font-medium">
-        Who We are{" "}
+        Who We Are{" "}
       </h3>
       <div className="max-w-[950px] mx-auto">
         <p className=" text-center mt-[50px] text-dark">
@@ -36,7 +36,7 @@ const About = () => {
         <button aschild="true">
           <Link
             className="bg-btngradient max-w-[200px] mt-[24px] shadow-btnshadow text-white px-[35px] py-[11px] rounded-[100px] text-16 flex items-center gap-[6px]"
-            href=""
+            href="/about-us"
           >
             <Image
               src="/images/arrow-up-right.svg"

@@ -9,8 +9,8 @@ import TopHeader from "./TopHeader";
 const Hero = () => {
   return (
     <section className="h-screen mx-auto container ">
-      <div className=" w-full opacity-0 md:opacity-[1] absolute left-0 top-0 bg-no-repeat  bg-left-top   h-full  z-[-1] bg-[url('/images/Variant3.svg')]"></div>
-      <div className=" w-full absolute right-0 bottom-0 bg-no-repeat bg-right-bottom  z-[-1]   h-full      bg-[url('/images/Variant5.svg')]"></div>
+      <div className=" w-full opacity-0 md:opacity-[1] absolute left-0 top-0 bg-no-repeat  bg-left-top   h-full  z-[-1] bg-[url('/images/Variant1.svg')]"></div>
+      <div className=" w-full absolute right-0 bottom-0 bg-no-repeat bg-right-bottom  z-[-1]   h-full      bg-[url('/images/Variant2.svg')]"></div>
       {/* header top  */}
       <TopHeader />
       {/* headet top end */}

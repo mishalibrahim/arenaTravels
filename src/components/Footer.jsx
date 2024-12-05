@@ -7,8 +7,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className=" border-t ">
-      <div className="flex justify-between flex-wrap gap-6  my-6 container mx-auto py-10 overflow-hidden">
+    <footer className=" border-t  bg-bentograd py-6">
+      <div className="flex justify-between flex-wrap gap-6   container mx-auto py-10 overflow-hidden">
         <div className="">
           <Image
             className="block min-h-[65px] sm:min-w-[358px] aspect-[358/65]"
