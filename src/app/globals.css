@@ -57,6 +57,9 @@ body {
   .text-24 {
     @apply text-[24px] leading-[1.2];
   }
+  .text-64 {
+    @apply text-[64px] leading-[120%];
+  }
   .mySwiper {
     @apply max-w-[800px] max-h-[400px] w-full drop-shadow-xl bg-white rounded-[20px];
   }

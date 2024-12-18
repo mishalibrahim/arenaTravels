@@ -131,12 +131,14 @@ const SwiperCarousel = () => {
       <SwiperSlide className={styles.swiper_slide}>Slide 4</SwiperSlide> */}
       <div className=" absolute -bottom-[50px] right-0 z-50 flex gap-5 mt-3 justify-end">
         <button
+          aria-label="Prev slide"
           className="w-[40px] h-[40px] rounded-full border border-primary"
           ref={prevRef}
         >
           <FontAwesomeIcon icon={faArrowLeft} className="text-primary" />
         </button>
         <button
+          aria-label="Next slide"
           className="w-[40px] h-[40px] rounded-full border border-primary"
           ref={nextRef}
         >

@@ -19,7 +19,7 @@ const Footer = () => {
           />
         </div>
         <div className="flex flex-col gap-4">
-          <h3 className="text-20 text-primary">Quick Access</h3>
+          <h1 className="text-20 text-primary">Quick Access</h1>
           <div className="flex flex-col gap-2">
             <Link href="" className="text-primary text-nowrap text-16">
               <p className="text-15 text-dark">Who We Are</p>
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <h3 className="text-20 text-primary">Get To Us</h3>
+          <h1 className="text-20 text-primary">Get To Us</h1>
           <div className="flex flex-col gap-2">
             <Link
               href=""

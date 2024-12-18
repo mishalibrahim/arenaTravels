@@ -4,9 +4,9 @@ import SwiperCarousel from "./SwiperCarousal/SwiperCarousel";
 const Testimonial = () => {
   return (
     <section className="container mx-auto mb-20  overflow-hidden">
-      <h3 className="text-40 text-primary text-center font-medium">
+      <h1 className="text-40 text-primary text-center font-medium">
         Testimonials{" "}
-      </h3>
+      </h1>
       <div className="flex items-center justify-center w-full    ">
         {" "}
         <p className="text-12 text-dark text-center mt-3 max-w-[700px]">

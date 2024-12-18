@@ -38,35 +38,32 @@ const TopHeader = () => {
         </Link>
       </div>
       <div className="flex items-center sm:gap-[40px] gap-[10px]">
-        <Link href="/">
+        <Link href="/" aria-label="Visit our Facebook page">
           <FontAwesomeIcon
             icon={faFacebook}
-            className=" h-[20px] text-primary"
+            className="h-[20px] text-primary"
           />
         </Link>
-        <Link href="/">
+        <Link href="/" aria-label="Find our location">
           <FontAwesomeIcon
             icon={faLocationDot}
-            className=" h-[20px] text-primary "
+            className="h-[20px] text-primary"
           />
         </Link>
-        <Link href="/">
+        <Link href="/" aria-label="Visit our LinkedIn profile">
           <FontAwesomeIcon
             icon={faLinkedin}
-            className=" h-[20px] text-primary"
+            className="h-[20px] text-primary"
           />
         </Link>
-        <Link href="/">
+        <Link href="/" aria-label="Visit our Instagram profile">
           <FontAwesomeIcon
             icon={faInstagram}
-            className=" h-[20px] text-primary "
+            className="h-[20px] text-primary"
           />
         </Link>
-        <Link href="/">
-          <FontAwesomeIcon
-            icon={faYoutube}
-            className=" h-[20px] text-primary"
-          />
+        <Link href="/" aria-label="Visit our YouTube channel">
+          <FontAwesomeIcon icon={faYoutube} className="h-[20px] text-primary" />
         </Link>
       </div>
     </div>

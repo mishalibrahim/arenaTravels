@@ -19,7 +19,7 @@ const Services = () => {
     <section id="section" className=" bg-primary  mb-[100px]">
       <div className="container mx-auto py-[50px]">
         <div className="text-center ">
-          <h3 className="text-40 text-white font-medium">Our Services</h3>
+          <h1 className="text-40 text-white font-medium">Our Services</h1>
           <p className="sm:text-16 text-12 mt-[6px] text-white">
             At Arena Travels, We take pride in providing a diverse range of
             services to cater to your travel needs.

@@ -9,9 +9,9 @@ const About = () => {
       className=" container mx-auto lg:my-[100px] my-[50px]"
       id="whoweare"
     >
-      <h3 className="text-40 text-primary text-center font-medium">
+      <h1 className="text-40 text-primary text-center font-medium">
         Who We Are{" "}
-      </h3>
+      </h1>
       <div className="max-w-[950px] mx-auto">
         <p className=" text-center mt-[50px] text-dark">
           ARENA TOURS AND TRAVELS, a complete travel and tourist services firm
