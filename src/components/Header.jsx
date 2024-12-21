@@ -57,8 +57,8 @@ const Header = () => {
             <p>Corporate Travel</p>
           </Link>
           <Link
-            href=""
-            className={`text-primary text-nowrap text-16 ${pathName === "/our-servcies" ? "text-primary" : "text-primary_light"}`}
+            href="/our-services"
+            className={`text-primary text-nowrap text-16 ${pathName === "/our-services" ? "text-primary" : "text-primary_light"}`}
           >
             <p>Our Services</p>
           </Link>

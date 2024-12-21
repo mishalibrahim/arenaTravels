@@ -35,7 +35,7 @@ const About = () => {
       <div className="flex items-end justify-end mt-[40px]">
         <button aschild="true">
           <Link
-            className="bg-btngradient max-w-[200px] mt-[24px] shadow-btnshadow text-white px-[35px] py-[11px] rounded-[100px] text-16 flex items-center gap-[6px]"
+            className="bg-btngradient max-w-[200px] mt-[24px] shadow-btnshadow text-white px-[35px] py-[11px] rounded-[100px] text-16 flex items-center gap-[6px] text-nowrap"
             href="/about-us"
           >
             <Image
