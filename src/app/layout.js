@@ -3,6 +3,7 @@ import "./globals.css";
 
 import { Poppins } from "next/font/google";
 import Lenis from "@/components/Lenis";
+import { Toaster } from "@/components/ui/toaster";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={poppins.className}>
       <body className={`${safiro.variable}  antialiased`}>
         <Lenis>{children}</Lenis>
+        <Toaster />
       </body>
     </html>
   );
