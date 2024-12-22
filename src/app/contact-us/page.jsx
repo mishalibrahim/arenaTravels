@@ -8,7 +8,7 @@ import ContactForm from "@/components/ContactForm";
 const ContactUs = () => {
   return (
     <section className="">
-      <div className="container">
+      <div className="container mx-auto">
         <TopHeader />
         <Header />
         <section className="sm:my-16 my-9 w-full ">
@@ -26,7 +26,7 @@ const ContactUs = () => {
             </p>
           </div>
           <div className="flex justify-between items-start my-16 gap-10">
-            <div className="flex-1">
+            <div className=" lg:flex-1 hidden lg:block">
               <Image
                 className="w-full rounded-lg"
                 src="/images/careers.jpg"
