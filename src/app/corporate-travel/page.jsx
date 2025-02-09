@@ -36,7 +36,7 @@ const page = () => {
           </div>
 
           <div className="grid lg:grid-cols-3 grid-cols-1 sm:my-16 my-8 lg:gap-16 gap-8">
-            <div className="bg-[url('/images/corporate-bgmain.png')] text-white p-8 rounded-[20px]">
+            <div className="bg-[url('/images/services_pattern_main.png')] text-white p-8 rounded-[20px]">
               <FontAwesomeIcon icon={faBriefcase} className="w-9 h-9 mb-3" />
               <h2 className="sm:text-24 text-20 font-medium mb-3">
                 {" "}
@@ -48,7 +48,7 @@ const page = () => {
                 travel plans.
               </p>
             </div>
-            <div className="bg-[url('/images/corporate-bgmain.png')] text-white p-8 rounded-[20px] lg:col-span-2">
+            <div className="bg-[url('/images/services_pattern_main.png')] text-white p-8 rounded-[20px] lg:col-span-2">
               <FontAwesomeIcon icon={faPeopleArrows} className="w-9 h-9 mb-3" />
               <h2 className="sm:text-24 text-20 font-medium mb-3">
                 {" "}
@@ -60,7 +60,7 @@ const page = () => {
                 delivering consistent support throughout their travel programs.
               </p>
             </div>
-            <div className="bg-[url('/images/corporate-bgmain.png')] text-white p-8 rounded-[20px] lg:col-span-2">
+            <div className="bg-[url('/images/services_pattern_main.png')] text-white p-8 rounded-[20px] lg:col-span-2">
               <FontAwesomeIcon icon={faReceipt} className="w-9 h-9 mb-3" />
               <h2 className="sm:text-24 text-20 font-medium mb-3">
                 {" "}
@@ -73,7 +73,7 @@ const page = () => {
                 ji obnoj bojbaobjobaojbaoa
               </p>
             </div>
-            <div className="bg-[url('/images/corporate-bgmain.png')] text-white p-8 rounded-[20px]">
+            <div className="bg-[url('/images/services_pattern_main.png')] text-white p-8 rounded-[20px]">
               <FontAwesomeIcon
                 icon={faHandHoldingDollar}
                 className="w-9 h-9 mb-3"
@@ -88,7 +88,7 @@ const page = () => {
                 rates for clients
               </p>
             </div>
-            <div className="bg-[url('/images/corporate-bgmain.png')] text-white p-8 rounded-[20px]">
+            <div className="bg-[url('/images/services_pattern_main.png')] text-white p-8 rounded-[20px]">
               <FontAwesomeIcon icon={faChartSimple} className="w-9 h-9 mb-3" />
               <h2 className="sm:text-24 text-20 font-medium mb-3">
                 {" "}
@@ -100,7 +100,7 @@ const page = () => {
                 travel plans.
               </p>
             </div>
-            <div className="bg-[url('/images/corporate-bgmain.png')] text-white p-8 rounded-[20px] lg:col-span-2">
+            <div className="bg-[url('/images/services_pattern_main.png')] text-white p-8 rounded-[20px] lg:col-span-2">
               <FontAwesomeIcon icon={faMedal} className="w-9 h-9 mb-3" />
               <h2 className="sm:text-24 text-20 font-medium mb-3">
                 {" "}

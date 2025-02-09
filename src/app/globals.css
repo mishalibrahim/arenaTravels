@@ -13,9 +13,10 @@
     /* --background: #0a0a0a; */
   }
 }
-.html,
-.body {
+html,
+body {
   overflow: hidden;
+  overflow-x: hidden;
 }
 body {
   /* font-family: safiro, sans-serif; */

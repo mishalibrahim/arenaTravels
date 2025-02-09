@@ -42,7 +42,7 @@ export default Services;
 
 const ServiceCard = ({ title, desc, img }) => {
   return (
-    <div className="flex flex-col max-w-[400px] justify-center items-center shadow-btnshadow bg-white rounded-[20px] ">
+    <div className="flex flex-col max-w-[400px] justify-start items-center shadow-btnshadow bg-white rounded-[20px] ">
       <div className="relative w-full">
         <Image
           src={img}

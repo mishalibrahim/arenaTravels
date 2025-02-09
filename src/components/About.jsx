@@ -1,7 +1,9 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+"use client";
+import React from "react";
+import { motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import AnimatedText from "./AnimatedText";
 
 const About = () => {
   return (
@@ -10,9 +12,9 @@ const About = () => {
       id="whoweare"
     >
       <h1 className="text-40 text-primary text-center font-medium">
-        Who We Are{" "}
+        <AnimatedText text={"Who We Are"} />
       </h1>
-      <div className="max-w-[950px] mx-auto">
+      <motion.div initial={{}} className="max-w-[950px] mx-auto">
         <p className=" text-center mt-[50px] text-dark">
           ARENA TOURS AND TRAVELS, a complete travel and tourist services firm
           serving both regional and international clients, was established in
@@ -31,7 +33,7 @@ const About = () => {
           private, government, and semi-government clients are just a few of the
           services available.
         </p>
-      </div>
+      </motion.div>
       <div className="flex items-end justify-end mt-[40px]">
         <button aschild="true">
           <Link

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { motion } from "motion/react";
 
@@ -14,7 +15,7 @@ const AnimatedText = ({ text }) => {
             opacity: 0,
             rotate: 0,
           }}
-          animate={{
+          whileInView={{
             y: 0,
             x: 0,
             scale: 1,
@@ -25,6 +26,7 @@ const AnimatedText = ({ text }) => {
             delay: index * 0.04,
             ease: "easeIn",
           }}
+          viewport={{ once: true }}
           key={index}
           className="inline"
         >
