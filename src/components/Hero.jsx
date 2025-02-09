@@ -51,7 +51,7 @@ const Hero = () => {
           >
             <Link
               className="bg-btngradient  cursor-pointer  max-w-fit md:max-w-full   mt-[24px] shadow-btnshadow text-white px-[35px] py-[11px] rounded-[100px] text-16 flex items-center gap-[6px]"
-              href="https://api.whatsapp.com/send?phone=15551234567"
+              href="https://api.whatsapp.com/send?phone=971501093361"
             >
               <FontAwesomeIcon
                 icon={faWhatsapp}
