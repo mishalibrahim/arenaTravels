@@ -13,11 +13,6 @@ import {
 } from "@/components/ui/form";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowUpFromBracket,
-  faCheck,
-} from "@fortawesome/free-solid-svg-icons";
 import { useToast } from "@/hooks/use-toast";
 
 const formSchema = z.object({

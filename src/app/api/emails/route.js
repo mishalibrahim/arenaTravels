@@ -10,7 +10,7 @@ export async function POST(req) {
 
     const emailOptions = {
       from: "onboarding@resend.dev",
-      to: "er.mishalibrahim@gmail.com",
+      to: "sales@arenatravels.ae",
       subject: `New ${resumeContent ? "Job Application" : "Contact Form Submission"} from ${name}`,
       react: Email({ name, phoneNo, email, desc }),
     };

@@ -10,12 +10,6 @@ export default function Email({ name, phoneNo, email, desc, resumeContent }) {
         <Column>{email}</Column>
         <Column>{desc}</Column>
       </Row>
-      <Button
-        href="https://example.com"
-        style={{ background: "#000", color: "#fff", padding: "12px 20px" }}
-      >
-        Click me
-      </Button>
     </Html>
   );
 }

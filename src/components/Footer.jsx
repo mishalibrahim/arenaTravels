@@ -7,7 +7,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className=" border-t  bg-bentograd py-6">
+    <footer className=" border-t  bg-bentograd py-8">
       <div className="flex justify-between flex-wrap gap-6   container mx-auto py-10 overflow-hidden">
         <div className="">
           <Image
@@ -21,19 +21,28 @@ const Footer = () => {
         <div className="flex flex-col gap-4">
           <h1 className="text-20 text-primary">Quick Access</h1>
           <div className="flex flex-col gap-2">
-            <Link href="" className="text-primary text-nowrap text-16">
+            <Link href="/about-us" className="text-primary text-nowrap text-16">
               <p className="text-15 text-dark">Who We Are</p>
             </Link>
-            <Link href="" className="text-primary text-nowrap text-16">
+            <Link
+              href="/corporate-travel"
+              className="text-primary text-nowrap text-16"
+            >
               <p className="text-15 text-dark">Corporate Travel</p>
             </Link>
-            <Link href="" className="text-primary text-nowrap text-16">
+            <Link
+              href="/our-services"
+              className="text-primary text-nowrap text-16"
+            >
               <p className="text-15 text-dark">Our Services</p>
             </Link>
-            <Link href="" className="text-primary text-nowrap text-16">
+            <Link href="/careers" className="text-primary text-nowrap text-16">
               <p className="text-15 text-dark">Careers</p>
             </Link>
-            <Link href="" className="text-primary text-nowrap text-16">
+            <Link
+              href="/contact-us"
+              className="text-primary text-nowrap text-16"
+            >
               <p className="text-15 text-dark">Contact Us</p>
             </Link>
           </div>

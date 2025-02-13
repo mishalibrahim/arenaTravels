@@ -115,22 +115,37 @@ const Header = () => {
             className="fixed z-20 top-0 left-0 w-full h-[100dvh] bg-white overflow-y-hidden"
           >
             <nav className="flex flex-col h-full items-center justify-center gap-[10px]">
-              <Link href="" className="text-primary text-nowrap text-16 p-4">
+              <Link href="/" className="text-primary text-nowrap text-16 p-4">
                 <p>Home</p>
               </Link>
-              <Link href="" className="text-primary text-nowrap text-16 p-4">
+              <Link
+                href="/about-us"
+                className="text-primary text-nowrap text-16 p-4"
+              >
                 <p>Who We Are</p>
               </Link>
-              <Link href="" className="text-primary text-nowrap text-16  p-4">
+              <Link
+                href="/corporate-travel"
+                className="text-primary text-nowrap text-16  p-4"
+              >
                 <p>Corporate Travel</p>
               </Link>
-              <Link href="" className="text-primary text-nowrap text-16  p-4">
+              <Link
+                href="/our-services"
+                className="text-primary text-nowrap text-16  p-4"
+              >
                 <p>Our Services</p>
               </Link>
-              <Link href="" className="text-primary text-nowrap text-16 p-4">
+              <Link
+                href="/careers"
+                className="text-primary text-nowrap text-16 p-4"
+              >
                 <p>Careers</p>
               </Link>
-              <Link href="" className="text-primary text-nowrap text-16 p-4">
+              <Link
+                href="/contact-us"
+                className="text-primary text-nowrap text-16 p-4"
+              >
                 <p>Contact Us</p>
               </Link>
             </nav>
