@@ -19,11 +19,11 @@ const Hero = () => {
       <Header />
       <section className="flex flex-col w-full relative ">
         <div className="flex md:items-center flex-col w-full lg:pt-[4.5rem] pt-[3.5rem] relative z-10">
-          <h1 className="lg:text-[6rem] md:text-[4rem] text-[3rem]  font-medium leading-[120%] md:text-center text-primary">
+          <h1 className="lg:text-[5rem] md:text-[3.6rem] text-[3rem] font-medium leading-[120%] md:text-center text-primary">
             <AnimatedText text="Plan. Book. Explore." />
             {/* Plan. Book. Explore. */}
           </h1>
-          <p className="lg:text-[2rem] text-[1rem]   font-normal leading-[140%] md:text-center text-primary">
+          <p className="lg:text-[1.8rem] text-[0.9rem]   font-normal leading-[140%] md:text-center text-primary">
             {" "}
             <AnimatedText text="The world is yours to discover!" />
             {/* The world is yours to discover! */}
