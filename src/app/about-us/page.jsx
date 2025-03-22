@@ -19,7 +19,7 @@ const page = () => {
           <div className="flex flex-col lg:flex-row justify-between items-start mt-8 gap-8">
             <div className="flex w-full flex-1  items-center justify-center">
               <Image
-                src="/images/about_hero.jpg"
+                src="https://res.cloudinary.com/dngfj98eq/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1742656721/arena-travels/about_hero_usdwgj.jpg"
                 alt="about-image"
                 width={500}
                 height={500}
