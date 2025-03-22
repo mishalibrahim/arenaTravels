@@ -30,7 +30,7 @@ const Careers = () => {
             <div className=" lg:flex-1 hidden lg:block">
               <Image
                 className="w-full rounded-lg"
-                src="https://res.cloudinary.com/dngfj98eq/image/upload/v1742656723/arena-travels/careers_jox54z.jpg"
+                src="https://res.cloudinary.com/dngfj98eq/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1742656723/arena-travels/careers_jox54z.jpg"
                 alt="career-form"
                 width={6000}
                 quality={100}
