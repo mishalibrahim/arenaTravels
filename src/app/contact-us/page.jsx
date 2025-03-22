@@ -29,7 +29,7 @@ const ContactUs = () => {
             <div className=" lg:flex-1 hidden lg:block">
               <Image
                 className="w-full rounded-lg"
-                src="https://res.cloudinary.com/dngfj98eq/image/upload/v1742656723/arena-travels/careers_jox54z.jpg"
+                src="https://res.cloudinary.com/dngfj98eq/image/upload/v1742671015/arena-travels/pexels-mikhail-nilov-7682340_jik9am.jpg"
                 alt="career-form"
                 width={6000}
                 quality={100}
