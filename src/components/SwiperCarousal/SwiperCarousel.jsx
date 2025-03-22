@@ -90,7 +90,7 @@ const SwiperCarousel = () => {
             Exploring Dubai with Arena Travels was an unforgettable experience.
             From the towering skyscrapers to the vast deserts, every moment was
             filled with awe and excitement. The professionalism and dedication of
-            Arena Travels made our trip smooth and hassle-free. We can't wait to
+            Arena Travels made our trip smooth and hassle-free. We can&apos;t wait to
             plan our next adventure with them!
           </p>
         </div>
