@@ -26,15 +26,15 @@ const TopHeader = () => {
             className="w-[16px] h-[16px] text-primary"
           />
           <p className="sm:text-16 text-12   text-primary">
-           reservations@arenatravel.ae
+            reservations@arenatravel.ae
           </p>
         </Link>
-        <Link href="tel:+971501093361" className="flex gap-[7px] items-center ">
+        <Link href="tel:+97128869909" className="flex gap-[7px] items-center ">
           <FontAwesomeIcon
             icon={faPhone}
             className="w-[16px] h-[16px] text-primary"
           />
-          <p className="sm:text-16 text-12  text-primary">+971 501 093 361</p>
+          <p className="sm:text-16 text-12  text-primary">+971 2 886 9909</p>
         </Link>
       </div>
       <div className="flex items-center sm:gap-[40px] gap-[10px]">
